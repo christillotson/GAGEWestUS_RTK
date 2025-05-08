@@ -44,9 +44,9 @@ The rtkMachine can be run in two different ways: it can first be saved as an obj
 `xyz = rtkMachine(...)`   
 `xyz.run()`
 
-This allows you to access the .output_table object attribute, which is a pandas dataframe containing all the relevant information for the specified near points. If near points are drawn, all the information in the .output_table is also stored in that feature class. You could access the output table by running .output_table() on the rtkMachine object after it has run, like this:
+This allows you to access the .output_table object attribute, which is a pandas dataframe containing all the relevant information for the specified near points. If near points are drawn, all the information in the .output_table is also stored in that feature class. You could access the output table by running .output_table on the rtkMachine object after it has run, like this:
 
-`xyz.output_table()`
+`xyz.output_table`
 
 Alternatively, you can simply call the .run method without assigning the object a variable name, which will still create the feature class outputs if specified to do so. This would look like:
 
@@ -64,7 +64,7 @@ Information about the nearest rtk points to the specified feature class will be 
 
 ![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/output.png?raw=true)
 
-## Attributes
+## Parameters
 
 | Name                           | Type                  | Default Value                 | Purpose       |
 | ------------------------------ | ----------------------| ----------------------------- | ------------- |
@@ -80,4 +80,16 @@ Information about the nearest rtk points to the specified feature class will be 
 
 ## Methods
 
+The rtkMachine has several private methods which are called internally to make the process run. You should not call these. You only need to call one method:
 
+| Name                           | Parameters            | Purpose       |
+| ------------------------------ | ----------------------| ------------- |
+| .run()                         | No parameters         | Called on rtkMachine object to run the process. Returns nothing itself, but creates the output feature classes if specified, and creates the .output_table attribute.      |
+
+## Attributes
+
+The rtkMachine has several attributes which are used internally for creating the outputs. The only attribute meant to be called externally is:
+
+| Name                           | Returns            | Purpose       |
+| ------------------------------ | ----------------------| ------------- |
+| .output_table                        | pandas DataFrame         | Stores all relevant information for points analyzed as nearby.  |
