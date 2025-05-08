@@ -7,21 +7,36 @@ Contained within this README.md are instructions for use with screenshots of dem
 Unpack the rtkGDB.gdb and rtkMachine_v1.py files to a directory on your local machine.
 DEMO: In my case, I have stored them on my desktop.  
 
-![](images/Screenshot 2025-05-08 182643.png)
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/Screenshot%202025-05-08%20182643.png?raw=true)
 
 ### Open project with flight feature classes
 These files are designed to work within an ArcGIS Project, in the map view. We can access the files directly in the python window, but you could also copy and paste some of this code to work in a jupyter notebook attached to the project.  
 DEMO: In my case, I have opened a project named Blank_Testing with three feature classes to test: testing_point, testing_polyline, and testing_polygon.
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/testing_point.png?raw=true)
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/testing_line.png?raw=true)
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/testing_polygon.png?raw=true)
+
 ### Connect rtkGDB.gdb
 Add a geodatabase connection to connect rtkGDB.gdb to your active project. The script will run and store all outputs within this geodatabase, so it is important to have easy access to it.
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/databaseconnection.png?raw=true)
+
 ### Load Code
 Open the python window (under 'Analysis'), right click in the prompt line (where you type in code), and select 'Load Code'. Then, navigate to the rtkMachine_v1.py file, and select 'OK' to load the code from this file. Press enter to run the file (you may need to press enter twice), importing the necessary modules and creating the rtkMachine class.  
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/openpythonwindow.png?raw=true)
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/LoadCode.png?raw=true)
+
 ### Get paths
 To run, this class has two required input parameters: the full path of the provided geodatabase, and the full path of the flight feature class file (NOTE: this is the path to the rtkGDB.gdb database, NOT the default project database). These parameters are path_to_gdb and path_to_flight_featureclass, respectively. Both should be created as r-strings (r"folder/pathfolder/pathfolder/rtkGDB.gdb") so that the backslashes are read in properly. You can access the paths of flight feature classes by right clicking them within your project geodatabase and selecting 'copy path', and you can access the path of the rtkGDB geodatabase by finding it in your connected Databases and doing the same.  
 DEMO: In my case, the paths are
 
 `gdb_path = r"C:\Users\cttillotson\Desktop\rtkGDB.gdb"`  
 `fc_path_point = r"U:\Users\cttillotson\GIS420Advanced\Final_Project_Blank_testing\Blank_Testing.gdb\testing_point"`
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/gettingpaths.png?raw=true)
 
 ### Run the rtkMachine
 The rtkMachine can be run in two different ways: it can first be saved as an object to a variable name, such as xyz = rtkMachine(...), and then run using the .run method, which would look like this:
@@ -40,7 +55,13 @@ Alternatively, you can simply call the .run method without assigning the object 
 In my DEMO, I chose to run it as one command, like so:
 
 `rtkMachine(path_to_gdb = gdb_path, path_to_flight_featureclass = fc_path_point).run()`  
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/abouttorun.png?raw=true)
+
 ### Access the outputs
 
 Information about the nearest rtk points to the specified feature class will be stored, if drawn, in the feature 'Nearby_points{number of times the rtkMachine has been run}', and an output will be printed.
+
+![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/output.png?raw=true)
+
 
