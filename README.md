@@ -64,4 +64,20 @@ Information about the nearest rtk points to the specified feature class will be 
 
 ![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/output.png?raw=true)
 
+## Attributes
+
+| Name                           | Type                  | Default Value                 | Purpose       |
+| ------------------------------ | ----------------------| ----------------------------- | ------------- |
+| path_to_gdb                    | string                | No default                    | Full path to your rtkGDB.gdb geodatabase. Recommended to create as an r-string.    |
+| path_to_flight_featureclass    | string                | No default                    | Full path to the feature class to be used as the flight plan input for the rtkMachine. Recommended to create as an r-string.  |
+| num_close                      | integer               | 1                             | Number of close stations to analyze. |
+| stations_ok                    | list                  | []                            | A list of names of stations known to be OK. Recommended to put realtime_points data into active project and compare with up-to-date info, if adjustment required. |
+| stations_unavailable           | list                  | []                            | A list of names of stations known to have Status Unavailable. Recommended to put realtime_points data into active project and compare with up-to-date info, if adjustment required.  |
+| draw_lines                     | boolean               | True                          | Whether or not to draw lines from the centerpoint of the flight feature class to the nearby points. (True = draw lines, False = don't draw lines)  |
+| delete_layers                  | boolean               | True                          | Whether or not to remove the working layers from the active map after they are created by the rtkMachine. (True = remove the working layers, False = keep them)  |
+| delete_features                | boolean               | True                          | Whether or not to delete the working layers feature classes from the rtkGDB.gdb geodatabase after they are created by the rtkMachine. (True = delete the feature classes, False = keep them) NOTE: setting this to True while delete_layers is False will keep the layer names displayed in the active map, but since their source feature class was deleted, they will display no data.|
+| display_nearby_points          | boolean               | True                          | Whether or not to display the nearby points as a new feature class with relevant error and distance information from the flight feature class centerpoint. (True = draw points, False = don't draw points) |
+
+## Methods
+
 
