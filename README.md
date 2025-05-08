@@ -86,6 +86,8 @@ The rtkMachine has several private methods which are called internally to make t
 | ------------------------------ | ----------------------| ------------- |
 | .run()                         | No parameters         | Called on rtkMachine object to run the process. Returns nothing itself, but creates the output feature classes if specified, and creates the .output_table attribute.      |
 
+To see information on internal methods, see the comments in the rtkMachine_v1.py file.
+
 ## Attributes
 
 The rtkMachine has several attributes which are used internally for creating the outputs. The only attribute meant to be called externally is:
@@ -93,3 +95,6 @@ The rtkMachine has several attributes which are used internally for creating the
 | Name                           | Returns            | Purpose       |
 | ------------------------------ | ----------------------| ------------- |
 | .output_table                        | pandas DataFrame         | Stores all relevant information for points analyzed as nearby.  |
+
+To see information on internal attributes, see the comments in the rtkMachine_v1.py file.
+
