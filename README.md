@@ -7,7 +7,7 @@ Contained within this README.md are instructions for use with screenshots of dem
 Unpack the rtkGDB.gdb and rtkMachine_v1.py files to a directory on your local machine.
 DEMO: In my case, I have stored them on my desktop.  
 
-!(/images/Screenshot 2025-05-08 182643.png)
+![](images/Screenshot 2025-05-08 182643.png)
 
 ### Open project with flight feature classes
 These files are designed to work within an ArcGIS Project, in the map view. We can access the files directly in the python window, but you could also copy and paste some of this code to work in a jupyter notebook attached to the project.  
