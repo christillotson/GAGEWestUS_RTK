@@ -9,6 +9,12 @@ DEMO: In my case, I have stored them on my desktop.
 
 ![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/Screenshot%202025-05-08%20182643.png?raw=true)
 
+Note that downloading entire folders from a github repo can be tricky, so downloading the gdb could be annoying, because it is stored as a folder of many files in github.
+
+I suggest using this website to download the entire repo: https://download-directory.github.io/
+
+Then extracting the relevant files from the zip file.
+
 ### Open project with flight feature classes
 The files in this repository are designed to work within an ArcGIS Project, in the map view. We can access the files directly in the python window, but you could also copy and paste some of this code to work in a jupyter notebook attached to the project.  
 DEMO: In my case, I have opened a project named Blank_Testing with three feature classes to test: testing_point, testing_polyline, and testing_polygon.
