@@ -98,3 +98,8 @@ The rtkMachine has several attributes which are used internally for creating the
 
 To see information on internal attributes, see the comments in the rtkMachine_v1.py file.
 
+## Sourcing
+
+Realtime point data courtesy of EarthScope Consortium, operators of the NSF GAGE Facility.
+
+Downloaded from https://www.unavco.org/instrumentation/networks/status/all/realtime
