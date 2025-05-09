@@ -1,6 +1,11 @@
 # GAGEWestUS_RTK
 Contained within this README.md are instructions for use with screenshots of demo applications, as well as class methods and attributes for the rtkMachine class defined in the rtkMachine_v1.py file.
 
+## Purpose
+
+The purpose of this project is to make the process of UAV / UAs flight planning simpler, if accessing an RTK network. This script and geodatabase work to output a visualization of nearby RTK stations in the GAGE-affiliated networks, as well as relevant information for each station and estimated error.
+This script and geodatabase are designed to work within ArcGIS Pro.
+
 ## Instructions for use
 
 ### Unpack files
