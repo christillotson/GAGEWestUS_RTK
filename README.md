@@ -10,7 +10,7 @@ DEMO: In my case, I have stored them on my desktop.
 ![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/Screenshot%202025-05-08%20182643.png?raw=true)
 
 ### Open project with flight feature classes
-These files are designed to work within an ArcGIS Project, in the map view. We can access the files directly in the python window, but you could also copy and paste some of this code to work in a jupyter notebook attached to the project.  
+The files in this repository are designed to work within an ArcGIS Project, in the map view. We can access the files directly in the python window, but you could also copy and paste some of this code to work in a jupyter notebook attached to the project.  
 DEMO: In my case, I have opened a project named Blank_Testing with three feature classes to test: testing_point, testing_polyline, and testing_polygon.
 
 ![](https://github.com/christillotson/GAGEWestUS_RTK/blob/main/images/testing_point.png?raw=true)
