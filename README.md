@@ -141,3 +141,9 @@ https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/add-fiel
 This project was originally created as the 'Final Project' for my GIS 420: Advanced GIS class, which I took at the College of William & Mary during the Spring 2025 semester. As such, some presentation materials related to how I presented the project are in the presentation folder. 
 
 A recording of my presentation is available here: https://youtu.be/ejv_xRwj9gI
+
+## Licensing
+
+This project is licensed under CC0 1.0 Universal Deed (Public Domain).
+
+https://creativecommons.org/publicdomain/zero/1.0/
