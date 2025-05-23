@@ -1,5 +1,5 @@
 # GAGEWestUS_RTK
-Contained within this README.md are instructions for use with screenshots of demo applications, as well as class methods and attributes for the rtkMachine class defined in the rtkMachine_v1.py file.
+Contained within this README.md are instructions for use with screenshots of demo applications, as well as class methods and attributes for the rtkMachine class defined in the rtkMachine_v1.py file, and a linked to my filmed presentation on this project.
 
 ## Purpose
 
