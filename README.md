@@ -134,19 +134,19 @@ https://bench-mark.ca/rtk-vs-static-measurements-a-technical-comparison/
 
 This is a non-comprehensive list of various sources which were helpful in programming for this project:
 
-https://gis.stackexchange.com/questions/157334/changing-field-values-with-arcpy-update-cursor
-https://stackoverflow.com/questions/7270321/finding-the-index-of-elements-based-on-a-condition-using-python-list-comprehensi
-https://community.esri.com/t5/spatial-data-science-questions/create-point-shapefile-at-center-of-polyline-with/td-p/96156
-https://gis.stackexchange.com/questions/475584/move-an-existing-layer-into-a-group-layer-using-arcpy-in-arcgis-pro
-https://support.esri.com/en-us/knowledge-base/how-to-move-feature-layers-into-a-group-layer-in-arcgis-000034956
-https://community.esri.com/t5/python-questions/delete-feature-class-from-geodatabase-using-arcpy/td-p/71257
-https://gis.stackexchange.com/questions/380331/arcpy-selecting-feature-class-by-attribute-then-copy-selection-to-new-feature-c
-https://pro.arcgis.com/en/pro-app/3.3/arcpy/mapping/map-class.htm
-https://www.w3schools.com/python/python_try_except.asp#:~:text=Raise%20an%20exception,exception%2C%20use%20the%20raise%20keyword
-https://community.esri.com/t5/arcgis-api-for-python-questions/how-to-count-records-returned-by-arcpy-da/td-p/791260
-https://pro.arcgis.com/en/pro-app/latest/arcpy/data-access/tabletonumpyarray.htm
-https://pro.arcgis.com/en/pro-app/3.3/arcpy/functions/listfields.htm
-https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/add-field.htm
+- https://gis.stackexchange.com/questions/157334/changing-field-values-with-arcpy-update-cursor
+- https://stackoverflow.com/questions/7270321/finding-the-index-of-elements-based-on-a-condition-using-python-list-comprehensi
+- https://community.esri.com/t5/spatial-data-science-questions/create-point-shapefile-at-center-of-polyline-with/td-p/96156
+- https://gis.stackexchange.com/questions/475584/move-an-existing-layer-into-a-group-layer-using-arcpy-in-arcgis-pro
+- https://support.esri.com/en-us/knowledge-base/how-to-move-feature-layers-into-a-group-layer-in-arcgis-000034956
+- https://community.esri.com/t5/python-questions/delete-feature-class-from-geodatabase-using-arcpy/td-p/71257
+- https://gis.stackexchange.com/questions/380331/arcpy-selecting-feature-class-by-attribute-then-copy-selection-to-new-feature-c
+- https://pro.arcgis.com/en/pro-app/3.3/arcpy/mapping/map-class.htm
+- https://www.w3schools.com/python/python_try_except.asp#:~:text=Raise%20an%20exception,exception%2C%20use%20the%20raise%20keyword
+- https://community.esri.com/t5/arcgis-api-for-python-questions/how-to-count-records-returned-by-arcpy-da/td-p/791260
+- https://pro.arcgis.com/en/pro-app/latest/arcpy/data-access/tabletonumpyarray.htm
+- https://pro.arcgis.com/en/pro-app/3.3/arcpy/functions/listfields.htm
+- https://pro.arcgis.com/en/pro-app/latest/tool-reference/data-management/add-field.htm
 
 ## Presentation
 
